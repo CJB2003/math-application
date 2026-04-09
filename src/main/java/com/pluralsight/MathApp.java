@@ -8,7 +8,7 @@ public class MathApp {
         double garySalary = 78992.68;
         double highestSalary = Math.max(bobSalary, garySalary);
 
-        System.out.println("The highest salary between the Gary and Bob is " + highestSalary + "\n");
+        System.out.println("The highest salary between Gary and Bob is " + highestSalary + "\n");
 
         double carPrice = 30210.88;
         double truckPrice = 56720.99;
