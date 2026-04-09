@@ -48,8 +48,8 @@ public class MathApp {
         int millisecondPerDay = minutePerDay * 60 * 1000;
 
         System.out.println("There are " + minutePerDay + " minutes in a day.\n");
-        System.out.println("There are " + millisecondPerDay + " milliseconds in a day.");
-
+        System.out.println("There are " + millisecondPerDay + " milliseconds in a day.\n");
+        System.out.println("There are " + millisecondPerDay * 24 + " milliseconds in  24 days.\n");
 
     }
 }
