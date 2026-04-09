@@ -1,7 +1,5 @@
 package com.pluralsight;
 
-import java.sql.SQLOutput;
-
 public class MathApp {
     public static void main(String[] args) {
 
