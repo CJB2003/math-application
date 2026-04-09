@@ -16,9 +16,33 @@ public class MathApp {
         System.out.println("The lowest vehicle price is " + Math.min(carPrice, truckPrice) + "\n");
 
         double radiusOfCircle = 7.25;
-        double areaOfCircle = Math.PI * Math.sqrt(radiusOfCircle);
+        double areaOfCircle = Math.PI * Math.pow(radiusOfCircle, 2);
 
-        System.out.println(areaOfCircle);
+        System.out.println(String.format("%.2f", areaOfCircle) + "\n");
+
+        double squareRoot = 5.0;
+        squareRoot = Math.sqrt(squareRoot);
+
+        System.out.println("The square root is " + String.format("%.2f", squareRoot) + "\n");
+
+        int x1 = 5;
+        int x2 = 85;
+        int y1 = 10;
+        int y2 = 50;
+        int distanceOne = x2 - x1;
+        int distanceTwo = y2 - y1;
+
+        System.out.println("The distance between the two points is " + String.format("%.2f", Math.sqrt(Math.pow(distanceOne, 2) + Math.pow(distanceTwo, 2))) + "\n");
+
+        double negativeValue = -3.8;
+
+        System.out.println("The absolute value is " + Math.abs(negativeValue) + "\n");
+
+        double randomValue = Math.random();
+
+        System.out.println("The random value is " + String.format("%.2f", randomValue) + "\n");
+
+
 
     }
 }
