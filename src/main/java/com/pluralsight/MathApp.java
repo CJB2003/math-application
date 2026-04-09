@@ -40,7 +40,7 @@ public class MathApp {
 
         double randomValue = Math.random();
 
-        System.out.println("The random value is " + String.format("%.2f", randomValue) + "\n");
+        System.out.println("The random value is between 0 and 1 is " + String.format("%.2f", randomValue) + "\n");
 
         int minuteInHour = 60;
         int hoursPerDay = 24;
