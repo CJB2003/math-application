@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.sql.SQLOutput;
+
 public class MathApp {
     public static void main(String[] args) {
 
@@ -8,12 +10,12 @@ public class MathApp {
         double garySalary = 78992.68;
         double highestSalary = Math.max(bobSalary, garySalary);
 
-        System.out.println("The highest salary is " + highestSalary + "\n");
+        System.out.println("The highest salary between the Gary and Bob is " + highestSalary + "\n");
 
         double carPrice = 30210.88;
         double truckPrice = 56720.99;
 
-        System.out.println("The lowest vehicle price is " + Math.min(carPrice, truckPrice) + "\n");
+        System.out.println("The lowest price between the two vehicles is " + Math.min(carPrice, truckPrice) + "\n");
 
         double radiusOfCircle = 7.25;
         double areaOfCircle = Math.PI * Math.pow(radiusOfCircle, 2);
@@ -42,6 +44,13 @@ public class MathApp {
 
         System.out.println("The random value is " + String.format("%.2f", randomValue) + "\n");
 
+        int minuteInHour = 60;
+        int hoursPerDay = 24;
+        int minutePerDay = minuteInHour * hoursPerDay;
+        int millisecondPerDay = minutePerDay * 60 * 1000;
+
+        System.out.println("There are " + minutePerDay + " minutes in a day.\n");
+        System.out.println("There are " + millisecondPerDay + " milliseconds in a day.");
 
 
     }
